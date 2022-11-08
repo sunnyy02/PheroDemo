@@ -15,7 +15,6 @@ export const helloWorldService = createService({
 
 export const userService = createService({
   getAllUsers,
-  helloWorld
 },
   {
     cors: {
